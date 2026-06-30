@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0167/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0167/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 元始上真眾仙記
+  date: '2015-08-28 23:39:26.492961'
+  source:
+    repository: kanripo
+    path: KR5a0167
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0167_000-HFL.yaml, hash: 'sha256:58b77c0dc3d112d17e9ef8b24255decda5d3c67599d8d0abaf5361ed98ca6ec4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0167_000-HFL.markers.yaml, hash: 'sha256:ac1ca81194a1856fa0b71d5a81dd8813b009d3519033658d0bc6a6ade16c4dce'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0167_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2873
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:1f03315df38803d3b5e8cbfec8381c8bb1d7cbe837e4986faece4062fac560ef

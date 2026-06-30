@@ -1,0 +1,44 @@
+canonical_identifier: bkk:krp/KR5a0167/v1
+canonical_location: https://kanripo.org/bkk/KR5a0167/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 枕中書一卷
+  identifiers:
+    alt_id:
+    - CH2a1460
+    - DZ0166
+  tags:
+    tls-dates: dat04500
+    kr-categories: KR5a
+    tls-internal: swl
+  source:
+    repository: tls-texts
+    path: data/tls/KR5a0167.xml
+  edition:
+    short: bkk
+editions:
+- {short: HFL, label: 【正統道藏・涵芬樓版】}
+- {short: ZTDZ, label: 【正統道藏・三家本】}
+- {short: krp}
+assets:
+  parts:
+  - {seq: 1, filename: KR5a0167_001.yaml, hash: 'sha256:29db28d65267bbf127b50824fd74e90e9584d645e63a35ebbdf27752e4c4cc29'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5a0167_001.markers.yaml, hash: 'sha256:6beacfa5394b624fed5e6c198066d0381fd96f6b2b4ce03f866fd80485bd6be7'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5a0167_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 2847
+  label: 枕中書
+  type: section
+  level: 1
+hash: sha256:df541ca480ddcb8653eb86bf593ece4473d13f2dd9c52c851c1c812b0a6e05bc
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

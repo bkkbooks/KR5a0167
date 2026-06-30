@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0167/krp/v1
+canonical_location: https://kanripo.org/bkk/KR5a0167/krp/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 元始上真眾仙記
+  date: '2015-08-28 23:39:26.492961'
+  source:
+    repository: kanripo
+    path: KR5a0167
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: HFL
+  edition:
+    short: krp
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0167_000-krp.yaml, hash: 'sha256:a99930240460874ab2583fbe50ecba6eaa1da0957d6a5711d764d62436dda1fb'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0167_000-krp.markers.yaml, hash: 'sha256:ab51acdab5cac91ceca53597a56c44973fee605a2ae1362f60818cdd16bfad17'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0167_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2873
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:bad8f404fa8f72a0a177cb39b1878758c0ea7e5e1abcb2cc841409a1b039e0bd

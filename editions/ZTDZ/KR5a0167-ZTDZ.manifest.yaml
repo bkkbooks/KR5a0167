@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0167/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0167/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 元始上真眾仙記
+  date: '2015-08-28 23:39:26.492961'
+  source:
+    repository: kanripo
+    path: KR5a0167
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0167_000-ZTDZ.yaml, hash: 'sha256:17a58e5faebb30ad58286d9942c054ebe424174487f9c85c594125c5e9b30dc1'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0167_000-ZTDZ.markers.yaml, hash: 'sha256:93c435c25c7bf70da6d9b7cab1cca717cf74ac40a5615d33a4c0e8d76338719e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0167_SJB_000-030269a
+    span:
+    - body
+    - 0
+    - 2873
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:93c13e0a60ab72aa3068786dfa2d0d0adb82fe9c759974863234bde9a3e16c2a
