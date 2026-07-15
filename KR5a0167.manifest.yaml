@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR5a0167/v1
 canonical_location: https://kanripo.org/bkk/KR5a0167/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 枕中書一卷
   identifiers:
@@ -26,9 +26,9 @@ editions:
 - short: krp
 assets:
   parts:
-  - {seq: 1, filename: KR5a0167_001.yaml, hash: 'sha256:39aa221dbf8b84db6a2f3b3707cef4ed83ebd280cc52a89903cbd23aecb34be6'}
+  - {seq: 1, filename: KR5a0167_001.yaml, hash: 'sha256:c83cb9e8ec1fac55868155cf971c99447ed5c789e3e45c32add2d1a95914ff20'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR5a0167_001.markers.yaml, hash: 'sha256:ffbe97c1bee5867734d7753be34605b50752fb1e936309316bca50fc39ba94ac'}
+  - {seq: 1, role: markers, filename: assets/KR5a0167_001.markers.yaml, hash: 'sha256:334ae1c82597c0bf3d7cf58149623b5ad4c601c8e71eb57d1e6db2006d9c2a81'}
 table_of_contents:
 - ref:
     seq: 1
@@ -40,4 +40,7 @@ table_of_contents:
   label: 枕中書
   type: section
   level: 1
-hash: sha256:b39ce93c4270deac0a9cd9706203cc2f315e33238cbeda3dbab265ee26facfb8
+hash: sha256:a5101663da12c4298d9da8a4d03fb370c854e9a3ea79a35f699ba589db9cc860
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
